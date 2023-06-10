@@ -1,0 +1,80 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FacebookLiveSetup.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FBEmail&Sequence_1",
+        "FBPassword&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UserSearch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_5",
+        "UsersDataTable&Sequence_1",
+        "DataTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "FechaNacimiento",
+        "DPI"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TSESearch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DownloadPath&Sequence_1",
+        "InfoExists&Sequence_1",
+        "CaptchaResult&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DPI",
+        "FechaNacimiento"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Pruebas.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SendNotification.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Receiver&Sequence_1",
+        "DownloadPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
