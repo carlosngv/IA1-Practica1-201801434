@@ -3,7 +3,7 @@
     <x:Property Name="BreakTriggerScopeInArgument" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>786,1529</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>678,1529</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -103,16 +103,8 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="SendNotification" sap:VirtualizedContainerService.HintSize="688,1464" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="DownloadPath">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">C:\Users\BDGSA\Desktop\IA\Practica1_201801434\Data\Capturas</Literal>
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="x:String" Name="Receiver">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">2998986600101@ingenieria.usac.edu.gt</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="C:\Users\BDGSA\Desktop\IA\Practica1_201801434\Data\Capturas" Name="DownloadPath" />
+      <Variable x:TypeArguments="x:String" Default="2998986600101@ingenieria.usac.edu.gt" Name="Receiver" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -146,7 +138,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <umab:SendMailX Bcc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Body="Hola Ana, se adjunta la constancia de votacion." BodyType="Text" Cc="carlosngv99@gmail.com" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,396" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="IA_Practica1_201801434" UseDocumentAsBody="False">
+                    <umab:SendMailX Bcc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Body="Hola Ana, se adjunta la constancia de votacion." BodyType="Text" Cc="carlosngv99@gmail.com;anaisabelculajay@gmail.com" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,396" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="IA_Practica1_201801434" UseDocumentAsBody="False">
                       <umab:SendMailX.Account>
                         <InArgument x:TypeArguments="um:IMailQuickHandle">
                           <CSharpValue x:TypeArguments="um:IMailQuickHandle" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">Outlook</CSharpValue>
